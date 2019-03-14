@@ -410,6 +410,7 @@ NA,
   Piano Sonata No. 10",
 NA,
 NA,
+NA,
 "Columbia Masterworks", 
 "ML 6345", "MS 6945",
 #
@@ -544,176 +545,320 @@ NA,
 "Columbia Masterworks", 
 NA, "MS 7294",
 #
-  "1969", "Schumann: Piano Quintet in E Flat; Piano Quartet in E Flat; The Three String Quartets",
-  "Quartet in A Minor, Op. 41, No. 1 (performed by Juilliard String Quartet)",
-  "Quartet in F Major, Op. 41, No. 2 (performed by Juilliard String Quartet)",
-  "Quartet in A Major, Op. 41, No. 3 (Performed by Juilliard String Quartet)",
-  "Quintet for Piano and Strings in Eb Major, Op. 44 (performed by Leonard Bernstein, piano/Juilliard String Quartet)",
-  "Quartet for Piano and Strings in Eb Major, Op. 47 (with members of the Juilliard String Quartet)",
-  "Columbia Masterworks, D3S 806",
+"036",
+"1969", 
+"Schumann: Piano Quintet in E Flat; Piano Quartet in E Flat; The Three String Quartets",
+"Quartet in A Minor, Op. 41, No. 1 (performed by Juilliard String Quartet); 
+  Quartet in F Major, Op. 41, No. 2 (performed by Juilliard String Quartet); 
+  Quartet in A Major, Op. 41, No. 3 (Performed by Juilliard String Quartet); 
+  Quintet for Piano and Strings in Eb Major, Op. 44 (performed by Leonard Bernstein, piano/Juilliard String Quartet); 
+  Quartet for Piano and Strings in Eb Major, Op. 47 (with members of the Juilliard String Quartet)",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "D3S 806",
 #
-  "1970", "Bach: The Well-Tempered Clavier, Book II Volume II, BWV 878-885",
-  "The Well-Tempered Clavier, Book II, Preludes and Fugues 9 - 16",
-  "Columbia Masterworks, MS 7409",
+"037",
+"1970", 
+"Bach: The Well-Tempered Clavier, Book II Volume II, BWV 878-885",
+"The Well-Tempered Clavier, Book II, Preludes and Fugues 9 - 16",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "MS 7409",
 #
-  "1970", "Glenn Gould Plays Beethoven Sonatas Nos. 8, 14 & 23",
-  "Piano Sonata No. 8",
-  "Piano Sonata No. 14",
-  "Piano Sonata No. 23",
-  "Columbia Masterworks, MS 7413",
+"038",
+"1970", 
+"Glenn Gould Plays Beethoven Sonatas Nos. 8, 14 & 23",
+"Piano Sonata No. 8; 
+  Piano Sonata No. 14; 
+  Piano Sonata No. 23",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "MS 7413",
 #
-  "1970", "Beethoven: Variations for Piano",
-  "32 Variations in C minor",
-  "Six variations on a theme in F major, Op. 34",
-  "Eroica Variations",
-  "Columbia Masterworks, M 30080",
+"039",
+"1970", 
+"Beethoven: Variations for Piano",
+"32 Variations in C minor; 
+  Six variations on a theme in F major, Op. 34; 
+  Eroica Variations",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 30080",
 #
-  "1971", "Bach: The Well-Tempered Clavier, Book II Volume III, BWV 886-893",
-  "The Well-Tempered Clavier, Book II, Preludes and Fugues 17 - 24",
-  "Columbia Masterworks, MS 30537",
+"040",
+"1971", 
+"Bach: The Well-Tempered Clavier, Book II Volume III, BWV 886-893",
+"The Well-Tempered Clavier, Book II, Preludes and Fugues 17 - 24",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "MS 30537",
 #
-  "1971", "A Consort of Musicke bye William Byrde and Orlando Gibbons",
-  "Byrd: The Firste Pavian; The Galliarde to the Firste Pavian; Pavana the Sixte Kinbrugh Goodd; The Galliarde to the Sixte Pavian; Hughe Ashtons Grownde: A Voluntarie; Sellingers Rownde",
-  "Gibbons: \"Lord Of Salisbury\" Pavan And Galliard; Allemande (Italian Ground); Fantasy in C major",
-  "Columbia Masterworks, M 30825",
+"041",
+"1971", 
+"A Consort of Musicke bye William Byrde and Orlando Gibbons",
+"Byrd: The Firste Pavian; 
+  The Galliarde to the Firste Pavian; 
+  Pavana the Sixte Kinbrugh Goodd;
+  The Galliarde to the Sixte Pavian; 
+  Hughe Ashtons Grownde: A Voluntarie; 
+  Sellingers Rownde; 
+  Gibbons: \"Lord Of Salisbury\" Pavan And Galliard; 
+  Allemande (Italian Ground); 
+  Fantasy in C major",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 30825",
+
+
+
 #
-  "1972", "The Mozart Piano Sonatas, Vol. 3",
-  "Piano Sonata No. 8",
-  "Piano Sonata No. 10",
-  "Piano Sonata No. 12",
-  "Piano Sonata No. 13",
-  "Columbia Masterworks, M 31073",
+"042",
+"1972", 
+"The Mozart Piano Sonatas, Vol. 3",
+"Piano Sonata No. 8; 
+  Piano Sonata No. 10; 
+  Piano Sonata No. 12; 
+  Piano Sonata No. 13",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 31073",
 #
-  "1972", "Schoenberg: Complete Songs for Voice and Piano, Vol. 1",
-  "2 Ges?nge for baritone, Op. 1 (with Donald Gramm, bass-baritone)",
-  "Vier Lieder, Op. 2 (with Ellen Faull, soprano)",
-  "Das Buch der h?ngenden G?rten, Op. 15 (with Helen Vanni, mezzo-soprano)",
-  "(all tracks previously released on M2S 736, 1966)",
-  NA,
-  "Columbia Masterworks, M 31311",
+"043",
+"1972", 
+"Schoenberg: Complete Songs for Voice and Piano, Vol. 1",
+"2 Ges?nge for baritone, Op. 1 (with Donald Gramm, bass-baritone); 
+  Vier Lieder, Op. 2 (with Ellen Faull, soprano); 
+  Das Buch der h?ngenden G?rten, Op. 15 (with Helen Vanni, mezzo-soprano); 
+  (all tracks previously released on M2S 736, 1966)",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 31311",
 #
-  "1972", "Schoenberg: Complete Songs for Voice and Piano, Vol. 2",
-  "Six Songs, Op. 3",
-  "Eight Songs, Op. 6",
-  "Two Ballads, Op. 12",
-  "Two Songs, Op. 14",
-  "Three Songs, Op. 48",
-  "Two Songs, Op. posth.",
-  "(with Donald Gramm, bass-baritone; Cornelius Opthof, baritone and Helen Vanni, mezzo-soprano)",
-  NA,
-  "Columbia Masterworks, M 31312",
+"044",
+"1972", 
+"Schoenberg: Complete Songs for Voice and Piano, Vol. 2",
+"Six Songs, Op. 3; 
+  Eight Songs, Op. 6; 
+  Two Ballads, Op. 12; 
+  Two Songs, Op. 14; 
+  Three Songs, Op. 48; 
+  Two Songs, Op. posth.",
+"Donald Gramm, bass-baritone; Cornelius Opthof, baritone and Helen Vanni, mezzo-soprano",
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 31312",
 #
-  "1972", "Music from Kurt Vonnegut's Slaughterhouse-Five",
-  "Keyboard concerto No. 5",
-  "Variations 18 & 25 from The Goldberg Variations",
-  "Brandenburg Concerto No. 4 in G major, BWV 1049",
-  "Concerto for harpsichord and strings in D major, BWV 1054",
-  "Fantasia super: Komm, Heiliger Geist, Herre Gott, BWV 651",
-  "(OST Slaughterhouse-Five, all tracks previously released)",
-  NA,
-  "Columbia Masterworks, S 31333",
+"045",
+"1972", 
+"Music from Kurt Vonnegut's Slaughterhouse-Five",
+"Keyboard concerto No. 5; 
+  Variations 18 & 25 from The Goldberg Variations; 
+  Brandenburg Concerto No. 4 in G major, BWV 1049; 
+  Concerto for harpsichord and strings in D major, BWV 1054; 
+  Fantasia super: Komm, Heiliger Geist, Herre Gott, BWV 651; 
+  (OST Slaughterhouse-Five, all tracks previously released)",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "S 31333",
 #
-  "1972", "H?ndel: Suites for the Harpsichord",
-  "Suite No. 1 in A major, HWV 426",
-  "Suite No. 2 in F major, HWV 427",
-  "Suite No. 3 in D minor, HWV 428",
-  "Suite No. 4 in E minor, HWV 429",
-  "(performed on harpsichord)",
-  NA,
-  "Columbia Masterworks, M 31512",
+"046",
+"1972", 
+"H?ndel: Suites for the Harpsichord",
+"Suite No. 1 in A major, HWV 426; 
+  Suite No. 2 in F major, HWV 427; 
+  Suite No. 3 in D minor, HWV 428; 
+  Suite No. 4 in E minor, HWV 429; 
+  (performed on harpsichord)",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 31512",
 #
-  "1973", "Glenn Gould's First Recordings of Grieg and Bizet",
-  "Grieg: Piano Sonata",
-  "Bizet: Premier Nocturne; Variations Chromatiques",
-  "Columbia Masterworks, M 32040",
+"046",
+"1973", 
+"Glenn Gould's First Recordings of Grieg and Bizet",
+"Grieg: Piano Sonata; 
+  Bizet: Premier Nocturne; Variations Chromatiques",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 32040",
 #
-  "1973", "Bach: The French Suites, Vol. 1",
-  "Suite No. 1 in D minor, BWV 812",
-  "Suite No. 2 in C minor, BWV 813",
-  "Suite No. 3 in B minor, BWV 814",
-  "Suite No. 4 in E-flat major, BWV 815",
-  "Columbia Masterworks, M 32347",
+"047",
+"1973", 
+"Bach: The French Suites, Vol. 1",
+"Suite No. 1 in D minor, BWV 812; 
+  Suite No. 2 in C minor, BWV 813; 
+  Suite No. 3 in B minor, BWV 814; 
+  Suite No. 4 in E-flat major, BWV 815",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 32347",
 #
-  "1973", "The Mozart Piano Sonatas, Vol. 4",
-  "Piano Sonata No. 11",
-  "Piano Sonata No. 15",
-  "Piano Sonata No. 16",
-  "Fantasia in D minor, K. 397",
-  "Columbia Masterworks, M 32348",
+"048",
+"1973",
+"The Mozart Piano Sonatas, Vol. 4",
+"Piano Sonata No. 11; 
+  Piano Sonata No. 15; 
+  Piano Sonata No. 16; 
+  Fantasia in D minor, K. 397",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 32348",
 #
-  "1973", "Beethoven: Piano Sonatas, Op. 31 Complete",
-  "Piano Sonata No. 16",
-  "Piano Sonata No. 17",
-  "Piano Sonata No. 18",
-  "Columbia Masterworks, M 32349",
+"049",
+"1973",
+"Beethoven: Piano Sonatas, Op. 31 Complete",
+"Piano Sonata No. 16; 
+  Piano Sonata No. 17; 
+  Piano Sonata No. 18",
+NA,
+NA,
+NA,
+"Columbia Masterworks", 
+NA, "M 32349",
 #
-  "1973", "Glenn Gould Plays Hindemith's Piano Sonatas 1-3",
-  "Piano Sonata No. 1",
-  "Piano Sonata No. 2",
-  "Piano Sonata No. 3",
-  "CBSa Masterworks, M 32350",
+"050",
+"1973",
+"Glenn Gould Plays Hindemith's Piano Sonatas 1-3",
+"Piano Sonata No. 1; 
+  Piano Sonata No. 2; 
+  Piano Sonata No. 3",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 32350",
 #
-  "1973", "Glenn Gould Plays His Own Transcriptions of Wagner Orchestral Showpieces",
-  "Prelude to Act I (from Die Meistersinger)",
-  "\"Dawn\" and \"Siegfried's Rhine Journey\" (from G?tterd?mmerung)",
-  "Siegfried Idyll",
-  "1973, Eaton Auditorium, Toronto", "CBS Masterworks, M 32351",
+"051",
+"1973",
+"Glenn Gould Plays His Own Transcriptions of Wagner Orchestral Showpieces",
+"Prelude to Act I (from Die Meistersinger); 
+  \"Dawn\" and \"Siegfried's Rhine Journey\" (from G?tterd?mmerung); 
+  Siegfried Idyll",
+NA,
+"1973", 
+"Eaton Auditorium, Toronto", 
+"CBS Masterworks", 
+NA, "M 32351",
 #
-  "1974", "Bach: The French Suites, Vol. 2 & Overture in the French Style",
-  "French Suite No. 5 in G major, BWV 816",
-  "French Suite No. 6 in E major, BWV 817",
-  "Overture in the French style, BWV 831",
-  "CBS Masterworks, M 32853",
+"052",
+"1974",
+"Bach: The French Suites, Vol. 2 & Overture in the French Style",
+"French Suite No. 5 in G major, BWV 816; 
+  French Suite No. 6 in E major, BWV 817; 
+  Overture in the French style, BWV 831",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 32853",
 #
-  "1974", "Bach: The Three Sonatas for Viola da Gamba & Harpsichord",
-  "Sonata No. 1 in G major, BWV 1027",
-  "Sonata No. 2 in D major, BWV 1028",
-  "Sonata No. 3 in G minor, BWV 1029",
-  "(with Leonard Rose, cello)",
-  NA,
-  "CBS Masterworks, M 32934",
+"053",
+"1974", 
+"Bach: The Three Sonatas for Viola da Gamba & Harpsichord",
+"Sonata No. 1 in G major, BWV 1027; 
+  Sonata No. 2 in D major, BWV 1028; 
+  Sonata No. 3 in G minor, BWV 1029",
+"Leonard Rose, cello",
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 32934",
 #
-  "1975", "Beethoven: Bagatelles, Op. 33 & Op. 126",
-  "Bagatelles, Op. 33",
-  "Bagatelles, Op. 126",
-  "CBS Masterworks, M 33265",
+"054",
+"1975", 
+"Beethoven: Bagatelles, Op. 33 & Op. 126",
+"Bagatelles, Op. 33; 
+  Bagatelles, Op. 126",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 33265",
 #
-  "1975", "The Mozart Piano Sonatas, Vol. 5",
-  "Fantasia in C Minor, K. 475",
-  "Piano Sonata No. 14 in C minor, K. 457",
-  "Piano Sonata No. 17 in B-flat major, K. 570",
-  "Piano Sonata No. 18 in D major, K. 576",
-  "June 23, 1974; November 9, 1974; & September 7, 1974 in Columbia 30th Street Studio, New York", "Columbia Masterworks, M 33515",
+"055",
+"1975", "The Mozart Piano Sonatas, Vol. 5",
+"Fantasia in C Minor, K. 475;
+  Piano Sonata No. 14 in C minor, K. 457;
+  Piano Sonata No. 17 in B-flat major, K. 570;
+  Piano Sonata No. 18 in D major, K. 576",
+NA,
+"June 23, 1974; November 9, 1974; & September 7, 1974",
+"Columbia 30th Street Studio, New York", 
+"Columbia Masterworks", 
+NA, "M 33515",
 #
-  "1976", "Hindemith: The Complete Sonatas For Brass & Piano",
-  "Sonata in F for French Horn and Piano",
-  "Sonata for Bass Tuba and Piano",
-  "Sonata for Trumpet and Piano",
-  "Sonata in E-flat for Alto Horn and Piano",
-  "Sonata for Trombone and Piano",
-  "(with members of the Philadelphia Brass Ensemble)",
-  NA,
-  "CBS Masterworks, M2 33971",
+"056",
+"1976",
+"Hindemith: The Complete Sonatas For Brass & Piano",
+"Sonata in F for French Horn and Piano;
+  Sonata for Bass Tuba and Piano;
+  Sonata for Trumpet and Piano;
+  Sonata in E-flat for Alto Horn and Piano;
+  Sonata for Trombone and Piano",
+"members of the Philadelphia Brass Ensemble",
+NA,
+NA,
+"CBS Masterworks",
+NA, "M2 33971",
 #
-  "1976", "Bach: The Six Sonatas for Violin and Harpsichord",
-  "Sonata in B minor for violin and harpsichord, BWV 1014",
-  "Sonata in A major for violin and harpsichord, BWV 1015",
-  "Sonata in E major for violin and harpsichord, BWV 1016",
-  "Sonata in C minor for violin and harpsichord, BWV 1017",
-  "Sonata in F minor for violin and harpsichord, BWV 1018",
-  "Sonata in G major for violin and harpsichord, BWV 1019",
-  "(with Jaime Laredo, violin)",
-  NA,
-  "CBS Masterworks, M2 34226",
+"057",
+"1976",
+"Bach: The Six Sonatas for Violin and Harpsichord",
+"Sonata in B minor for violin and harpsichord, BWV 1014;
+  Sonata in A major for violin and harpsichord, BWV 1015;
+  Sonata in E major for violin and harpsichord, BWV 1016;
+  Sonata in C minor for violin and harpsichord, BWV 1017;
+  Sonata in F minor for violin and harpsichord, BWV 1018;
+  Sonata in G major for violin and harpsichord, BWV 1019",
+"Jaime Laredo, violin",
+NA,
+NA,
+"CBS Masterworks",
+NA, "M2 34226",
 #
-  "1977", "Glenn Gould Plays Sibelius",
-  "Sonatine No. 1 for Piano in E major, Op. 67",
-  "Sonatine No. 2 for Piano in E major, Op. 67",
-  "Sonatine No. 3 for Piano in B minor, Op. 67",
-  "Kyllikki, Op. 41",
-  "CBS Masterworks, M 34555",
+"058",
+"1977",
+"Glenn Gould Plays Sibelius",
+"Sonatine No. 1 for Piano in E major, Op. 67;
+  Sonatine No. 2 for Piano in E major, Op. 67;
+  Sonatine No. 3 for Piano in B minor, Op. 67;
+  Kyllikki, Op. 41",
+NA,
+NA,
+NA,
+"CBS Masterworks",
+NA, "M 34555",
 #
-  "1977", "Glenn Gould Plays Bach: The English Suites Complete",
+"058",
+"1977",
+"Glenn Gould Plays Bach: The English Suites Complete",
   "Suite No. 1 in A Major, BWV 806",
   "Suite No. 2 in A Minor, BWV 807",
   "Suite No. 3 in G Minor, BWV 808",
@@ -848,7 +993,7 @@ d1
 ```
 
 
-```
+```{r}
 
 
 
