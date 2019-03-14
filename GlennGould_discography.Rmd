@@ -856,29 +856,34 @@ NA,
 "CBS Masterworks",
 NA, "M 34555",
 #
-"058",
+"059",
 "1977",
 "Glenn Gould Plays Bach: The English Suites Complete",
-  "Suite No. 1 in A Major, BWV 806",
-  "Suite No. 2 in A Minor, BWV 807",
-  "Suite No. 3 in G Minor, BWV 808",
-  "Suite No. 4 in F Major, BWV 809",
-  "Suite No. 5 in E Minor, BWV 810",
-  "Suite No. 6 in D Minor, BWV 811",
-  "BWV 806: March 11 & November 4, 1973",
-  "BWV 807: May 23, 1971",
-  "BWV 808: June 21 & 22, 1974",
-  "BWV 809 and BWV 810: December 14 & 15, 1974 and May 23 & 24, 1976",
-  "BWV 811: October 10 & 11, 1975 and May 23 & 24, 1976",
-  "Eaton's Auditorium",
-  NA,
-  "CBS Masterworks, M2 34578",
+"Suite No. 1 in A Major, BWV 806;
+  Suite No. 2 in A Minor, BWV 807;
+  Suite No. 3 in G Minor, BWV 808;
+  Suite No. 4 in F Major, BWV 809;
+  Suite No. 5 in E Minor, BWV 810;
+  Suite No. 6 in D Minor, BWV 811",
+NA,
+"BWV 806: March 11 & November 4, 1973;
+  BWV 807: May 23, 1971;
+  BWV 808: June 21 & 22, 1974;
+  BWV 809 and BWV 810: December 14 & 15, 1974 and May 23 & 24, 1976;
+  BWV 811: October 10 & 11, 1975 and May 23 & 24, 1976",
+"Eaton's Auditorium",
+"CBS Masterworks",
+NA, "M2 34578",
 #
-  "1978", "Hindemith: Das Marienleben for Soprano & Piano",
-  "Das Marienleben",
-  "(with Roxolana Roslak, soprano)",
-  NA,
-  "CBS Masterworks, M2 34597",
+"060",
+"1978",
+"Hindemith: Das Marienleben for Soprano & Piano",
+"Das Marienleben",
+"Roxolana Roslak, soprano",
+NA,
+NA,
+"CBS Masterworks",
+NA, "M2 34597",
 #
   "1979", "Bach: The Toccatas, Vol. 1",
   "Toccata in F-sharp minor, BWV 910",
