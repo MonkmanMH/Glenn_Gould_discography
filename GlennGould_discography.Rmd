@@ -885,67 +885,100 @@ NA,
 "CBS Masterworks",
 NA, "M2 34597",
 #
-  "1979", "Bach: The Toccatas, Vol. 1",
-  "Toccata in F-sharp minor, BWV 910",
-  "Toccata in D major, BWV 912",
-  "Toccata in D minor, BWV 913",
-  "CBS Masterworks, M 35144",
+"061",
+"1979", 
+"Bach: The Toccatas, Vol. 1",
+"Toccata in F-sharp minor, BWV 910;
+  Toccata in D major, BWV 912;
+  Toccata in D minor, BWV 913",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 35144",
 #
-  "1980", "Bach: The Toccatas, Vol. 2",
-  "Toccata in C minor, BWV 911",
-  "Toccata in E minor, BWV 914",
-  "Toccata in G minor, BWV 915",
-  "Toccata in G major, BWV 916",
-  "CBS Masterworks, M 35831",
+"062",
+"1980",
+"Bach: The Toccatas, Vol. 2",
+"Toccata in C minor, BWV 911;
+  Toccata in E minor, BWV 914;
+  Toccata in G minor, BWV 915;
+  Toccata in G major, BWV 916",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 35831",
 #
-  "1980", "Bach: Prelude, Fughettas & Fugues",
-  "Prelude And Fugue in A minor, BWV 895",
-  "Prelude And Fughetta in D minor, BWV 899",
-  "Prelude And Fugue in E minor, BWV 900",
-  "Preludes, BWV 902 & 902A",
-  "Fughetta in G major, BWV 902",
-  "Prelude in C major, BWV 924",
-  "Prelude in D major, BWV 925",
-  "Prelude in D minor, BWV 926",
-  "Prelude in F major, BWV 927",
-  "Prelude in F major, BWV 928",
-  "Prelude in G minor, BWV 930",
-  "Prelude in C major, BWV 933",
-  "Prelude in C minor, BWV 934",
-  "Prelude in D minor, BWV 935",
-  "Prelude in D major, BWV 936",
-  "Prelude in E major, BWV 937",
-  "Prelude in E minor, BWV 938",
-  "Fugue in C major, BWV 952",
-  "Fugue in C major, BWV 953",
-  "Fughetta in C minor, BWV 961",
-  "CBS Masterworks, M 35891",
+"063",
+"1980",
+"Bach: Prelude, Fughettas & Fugues",
+"Prelude And Fugue in A minor, BWV 895;
+  Prelude And Fughetta in D minor, BWV 899;
+  Prelude And Fugue in E minor, BWV 900;
+  Preludes, BWV 902 & 902A;
+  Fughetta in G major, BWV 902;
+  Prelude in C major, BWV 924;
+  Prelude in D major, BWV 925;
+  Prelude in D minor, BWV 926;
+  Prelude in F major, BWV 927;
+  Prelude in F major, BWV 928;
+  Prelude in G minor, BWV 930;
+  Prelude in C major, BWV 933;
+  Prelude in C minor, BWV 934;
+  Prelude in D minor, BWV 935;
+  Prelude in D major, BWV 936;
+  Prelude in E major, BWV 937;
+  Prelude in E minor, BWV 938;
+  Fugue in C major, BWV 952;
+  Fugue in C major, BWV 953;
+  Fughetta in C minor, BWV 961",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 35891",
 #
-  "1980", "Beethoven: Piano Sonatas, Op. 2, Nos. 1-3, Op. 28, \"Pastoral\"",
-  "Piano Sonata No. 1",
-  "Piano Sonata No. 2",
-  "Piano Sonata No. 3",
-  "Piano Sonata No. 15",
-  "CBS Masterworks, M2 35911",
+"064",
+"1980",
+"Beethoven: Piano Sonatas, Op. 2, Nos. 1-3, Op. 28, \"Pastoral\"",
+"Piano Sonata No. 1;
+  Piano Sonata No. 2;
+  Piano Sonata No. 3;
+  Piano Sonata No. 15",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M2 35911",
 #
-  "1981", "The Glenn Gould Silver Jubilee Album",
-  "Scarlatti: Sonatas, L 463, 413, and 486",
-  "C.P.E. Bach: W?rttemberg Sonata No. 1",
-  "Gould: So You Want to Write A Fugue? (performed by Elizabeth Benson-Guy, soprano/Anita Darian, contralto/Charles Bressler, tenor/Donald Gramm, baritone/Juilliard String Quartet/Vladimir Golschmann, conductor)",
-  "Scriabin: Two Pieces, Op. 57",
-  "Strauss: Ophelia-Lieder (with Elisabeth Schwarzkopf, soprano)",
-  "Beethoven-Liszt: Pastoral Symphony, First Movement",
-  "A Glenn Gould Fantasy (with Margaret Pacsu)",
-  "CBS Masterworks M2X 35914",
+"065",
+"1981",
+"The Glenn Gould Silver Jubilee Album",
+"Scarlatti: Sonatas, L 463, 413, and 486;
+  C.P.E. Bach: W?rttemberg Sonata No. 1;
+  Gould: So You Want to Write A Fugue? (performed by Elizabeth Benson-Guy, soprano/Anita Darian, contralto/Charles Bressler, tenor/Donald Gramm, baritone/Juilliard String Quartet/Vladimir Golschmann, conductor);
+  Scriabin: Two Pieces, Op. 57;
+  Strauss: Ophelia-Lieder (with Elisabeth Schwarzkopf, soprano);
+  Beethoven-Liszt: Pastoral Symphony, First Movement;
+  A Glenn Gould Fantasy (with Margaret Pacsu)",
+NA,
+NA,
+NA,
+"CBS Masterworks",
+NA, "M2X 35914",
 #
-  "1982", "Haydn: The Six Last Sonatas",
-  "Piano Sonata No. 56, Hob. XVI/No. 42",
-  "Piano Sonata No. 58, Hob. XVI/No. 48",
-  "Piano Sonata No. 59, Hob. XVI/No. 49",
-  "Piano Sonata No. 60, Hob. XVI/No. 50",
-  "Piano Sonata No. 61, Hob. XVI/No. 51",
-  "Piano Sonata No. 62, Hob. XVI/No. 52",
-  "CBS Masterworks, I2M 36947",
+"066",
+"1982",
+"Haydn: The Six Last Sonatas",
+"Piano Sonata No. 56, Hob. XVI/No. 42;
+  Piano Sonata No. 58, Hob. XVI/No. 48;
+  Piano Sonata No. 59, Hob. XVI/No. 49;
+  Piano Sonata No. 60, Hob. XVI/No. 50;
+  Piano Sonata No. 61, Hob. XVI/No. 51;
+  Piano Sonata No. 62, Hob. XVI/No. 52",
+"CBS Masterworks", 
+NA, "I2M 36947",
 #
   "1982", "Bach: The Goldberg Variations (1981 Digital Recording)",
   "Goldberg Variations",
