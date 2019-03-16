@@ -980,42 +980,92 @@ NA, "M2X 35914",
 "CBS Masterworks", 
 NA, "I2M 36947",
 #
-  "1982", "Bach: The Goldberg Variations (1981 Digital Recording)",
-  "Goldberg Variations",
-  "CBS Masterworks, IM 37779",
+"067",
+"1982", 
+"Bach: The Goldberg Variations (1981 Digital Recording)",
+"Goldberg Variations",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "IM 37779",
 #
-  "1982", "Glenn Gould Discusses His Performances of the \"Goldberg Variations\" with Tim Page", "", "CBS Masterworks, CDN-70 (Bonus disc released with IM 37779)",
+"068",
+"1982", 
+"Glenn Gould Discusses His Performances of the \"Goldberg Variations\" with Tim Page", 
+NA,
+"Tim Page",
+NA,
+NA,
+"CBS Masterworks", 
+NA, "CDN-70 (Bonus disc released with IM 37779)",
 #
-  "1982", "A State of Wonder: The Complete Goldberg Variations, 1955 & 1981", "* 3 discs: 1955 and 1981 recordings plus 1955 outtakes and Gould's final radio interview", "Sony Classical, S3K 87703",
+"069",
+"1982",
+"A State of Wonder: The Complete Goldberg Variations, 1955 & 1981",
+"* 3 discs: 1955 and 1981 recordings plus 1955 outtakes and Gould's final radio interview",
+NA,
+NA,
+NA,
+"Sony Classical", 
+NA, "S3K 87703",
 #
-  "1983", "Brahms: Ballades, Op. 10 & Rhapsodies, Op. 79",
-  "Ballades, Op. 10",
-  "Rhapsodies, Op. 79",
-  "February 8,9 & 10 1982 in RCA's Studio A in New York (Ballades)",
-  "June 30,& July 1 1982 in RCA's Studio A in New York (Rhapsodies)",
-  "CBS Masterworks, IM 37800",
+"070",
+"1983",
+"Brahms: Ballades, Op. 10 & Rhapsodies, Op. 79",
+"Ballades, Op. 10;
+  Rhapsodies, Op. 79",
+NA,
+"February 8,9 & 10 1982 (Ballades); 
+  June 30,& July 1 1982 (Rhapsodies)", 
+"RCA's Studio A in New York",
+"CBS Masterworks", 
+NA, "IM 37800",
 #
-  "1983", "Beethoven: Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
-  "Piano Sonata No. 12",
-  "Piano Sonata No. 13",
-  "CBS Masterworks, M 37831",
+"071",
+"1983",
+"Beethoven: Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
+"Piano Sonata No. 12;
+  Piano Sonata No. 13",
+NA,
+NA,
+NA,
+"CBS Masterworks", 
+NA, "M 37831",
 #
-  "1984", "Richard Strauss: Sonata, Op. 5; 5 Piano Pieces, Op. 3",
-  "Five Piano Pieces, Op. 3",
-  "Piano Sonata in B minor, Op. 5",
-  "September 1-3, 1982 in RCA's Studio A in New York (Sonata op.5)",
-  "April 23 & 6 August 6, 1979 in Old St.Laurence Hall in Toronto (Piano Pieces 1-4); September 5, 1979 in Eaton's Auditorium in Toronto (Piano Piece 5)",
-  "CBS Masterworks, IM 38659",
+"072",
+"1984",
+"Richard Strauss: Sonata, Op. 5; 5 Piano Pieces, Op. 3",
+"Five Piano Pieces, Op. 3;
+  Piano Sonata in B minor, Op. 5",
+NA,
+"September 1-3, 1982 (Sonata op.5); 
+  April 23 & 6 August 6, 1979 (Piano Pieces 1-4);
+  September 5, 1979 (Piano Piece 5)",
+"RCA's Studio A in New York (Sonata op.5);
+  Old St.Laurence Hall in Toronto (Piano Pieces 1-4),
+  Eaton\'s Auditorium in Toronto (Piano Piece 5)",
+"CBS Masterworks", 
+NA, "IM 38659",
 #
-  "1990", "Glenn Gould Conducts & Plays Wagner",
-  "Siegfried Idyll * (original version for 13 instruments): Glenn Gould, conductor",
-  "Prelude to Act I (from Die Meistersinger) **",
-  "\"Dawn\" and \"Siegfried's Rhine Journey\" (from G?tterd?mmerung) **",
-  "Siegfried Idyll **",
-  "* July 27-29 & September 8, 1982, St. Lawrence Hall, Toronto / ** 1973, Eaton Auditorium, Toronto (originally released in 1973 by Columbia Masterworks, M 32351)", "Sony Classical, SK 46279",
-  "References")
-
-
+"073",
+"1990",
+"Glenn Gould Conducts & Plays Wagner",
+"Siegfried Idyll * (original version for 13 instruments): Glenn Gould, conductor;
+  Prelude to Act I (from Die Meistersinger);
+ \"Dawn\" and \"Siegfried\'s Rhine Journey\" (from G?tterd?mmerung);
+  Siegfried Idyll",
+NA,
+"1973;
+  July 27-29 & September 8, 1982",
+"St. Lawrence Hall, Toronto;
+  Eaton Auditorium, Toronto",
+"Sony Classical", 
+NA, "SK 46279",
+"tracks 2-5 originally released in 1973 by Columbia Masterworks, M 32351"
+#
+# the end
+)
 
 
 ### split function
