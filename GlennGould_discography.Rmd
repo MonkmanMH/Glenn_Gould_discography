@@ -15,16 +15,19 @@ library(tidyr)
 
 ```{r}
 
-headings <- c("NUM", 
+headings <- c("INDEX_NUM", 
               "year.of.issue", 
               "title", 
               "works",
               "other artists",
               "recording.date", "recording.location",
               "label",
-              "serial.number.mono", "serial.number.stereo")
+              "serial.number.mono", "serial.number.stereo",
+              "notes")
 
 headings_tbl <- tibble(headings)
+
+headings_tbl
 
 ```
 
@@ -49,7 +52,8 @@ discog_table <-
   NA,
   "June 10 - June 16, 1955", "CBS 30th Street Studio", 
   "Columbia Masterworks", 
-  "ML 5060", NA)
+  "ML 5060", NA, 
+  NA)
 
 #
 
@@ -74,6 +78,7 @@ discog_table <-
   "June 10 - June 16, 1955", "CBS 30th Street Studio", 
   "Columbia Masterworks", 
   "ML 5060", NA,
+  NA,
 #
   "002", 
   "1956", 
@@ -83,6 +88,7 @@ discog_table <-
   "June 20 - June 29, 1956", "CBS 30th Street Studio", 
   "Columbia Masterworks", 
   "ML 5130", NA,
+  NA,
 #  
   "003",
   "1957", 
@@ -91,7 +97,9 @@ discog_table <-
   "Leonard Bernstein / Columbia Symphony Orchestra)",
   "April 9 - April 11, 1957 and April 30, 1957", "CBS 30th Street Studio", 
   "Columbia Masterworks", 
-  "ML 5211", NA)
+  "ML 5211", NA,
+  NA
+)
 
 cbind.data.frame(headings, discog_table)
 
@@ -127,7 +135,7 @@ discog %>%
 
 x <- seq_along(discog_table)
 
-d1 <- split(discog_table, ceiling(x/10))
+d1 <- split(discog_table, ceiling(x/11))
 
 d1
 
@@ -149,6 +157,8 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 "ML 5060", NA,
+NA,
+#
 #
 "002", 
 "1956", 
@@ -159,7 +169,9 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 "ML 5130", NA,
-#  
+NA,
+#
+#
 "003",
 "1957", 
 "Bach: Concerto No. 1 in D minor, BWV 1052 & Beethoven: Concerto No. 2 in B-flat major, Op. 19",
@@ -170,7 +182,9 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 "ML 5211", NA,
-#  
+NA,
+#
+#
 "004",
 "1957", 
 "Bach: Partitas Nos. 5 & 6; Fugues in F-sharp minor and E major",
@@ -183,6 +197,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5186", NA,
+NA,
+#
 #
 "005",  
 "1958", 
@@ -195,6 +211,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5274", NA,
+NA,
+#
 #
 "006",
 "1958", 
@@ -206,6 +224,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5298", "MS 6017",
+NA,
+#
 #
 "007",
 "1959", 
@@ -218,6 +238,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5336", NA,
+NA,
+#
 #
 "008",
 "1960", 
@@ -228,6 +250,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5578", "MS 6178",
+NA,
+#
 #
 "009",
 "1960",
@@ -238,6 +262,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5418", "MS 6096",
+NA,
+#
 #
 "010",
 "1960", 
@@ -250,6 +276,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5472", "MS 6141",
+NA,
+#
 #
 "011",
 "1961", 
@@ -269,6 +297,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5637", "MS 6237",
+NA,
+#
 #
 "012",
 "1961", 
@@ -279,6 +309,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5662", "MS 6262",
+NA,
+#
 #
 "013",
 "1962", 
@@ -291,6 +323,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5739", "MS 6339",
+NA,
+#
 #
 "014",
 "1962", 
@@ -301,6 +335,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5738", "MS 6338",
+NA,
+#
 #
 "015",
 "1962", 
@@ -311,6 +347,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5741", "MS 6341",
+NA,
+#
 #
 "016",
 "1963", 
@@ -321,6 +359,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5739", "MS 6339",
+NA,
+#
 #
 "017",
 "1963", 
@@ -333,6 +373,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5898", "MS 6498",
+NA,
+#
 #
 "018",
 "1963", 
@@ -343,6 +385,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 5938", "MS 6538",
+NA,
+#
 #
 "019",
 "1964", 
@@ -353,6 +397,8 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 "ML 6022", "MS 6622",
+NA,
+#
 #
 "020",
 "1965", 
@@ -365,6 +411,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 6086", "MS 6686",
+NA,
+#
 #
 "0021",
 "1965", 
@@ -375,6 +423,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 6176", "MS 6776",
+NA,
+#
 #
 "0022",
 "1966", 
@@ -391,6 +441,8 @@ NA,
 NA,
 NA,
 "Columbia Masterworks", "M2L 336", NA,
+NA,
+#
 #
 "023",
 "1966", 
@@ -401,6 +453,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 6288", "MS 6888",
+NA,
+#
 #
 "024",
 "1967", 
@@ -413,6 +467,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 6345", "MS 6945",
+NA,
+#
 #
 "025",
 "1967", 
@@ -425,6 +481,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 "ML 6401", NA,
+NA,
+#
 #
 "026",
 "1967", 
@@ -437,6 +495,8 @@ NA,
 NA,
 "CBS Masterworks", 
 "32 11 0045", "32 11 0046",
+NA,
+#
 #
 "027",
 "1967", 
@@ -450,6 +510,8 @@ NA,
 NA,
 NA,
 "Columbia Masterworks", NA, "M2L 767",
+NA,
+#
 #
 "028",
 "1968", 
@@ -460,6 +522,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7095",
+NA,
+#
 #
 "029",
 "1968", 
@@ -470,6 +534,8 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 NA, "MS 7096",
+NA,
+#
 #
 "030",
 "1968", 
@@ -484,6 +550,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7097",
+NA,
+#
 #
 "031",
 "1968", 
@@ -494,6 +562,8 @@ NA,
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
 NA, "MS 7099",
+NA,
+#
 #
 "032",
 "1968", 
@@ -510,6 +580,8 @@ NA,
 NA,
 "Columbia Masterworks",
 NA, "BS 15 (bonus disc released with MS 7095)",
+NA,
+#
 #
 "033",
 "1969", 
@@ -521,6 +593,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7173",
+NA,
+#
 #
 "034",
 "1969", 
@@ -533,6 +607,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7274",
+NA,
+#
 #
 "035",
 "1969", 
@@ -544,6 +620,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7294",
+NA,
+#
 #
 "036",
 "1969", 
@@ -558,6 +636,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "D3S 806",
+NA,
+#
 #
 "037",
 "1970", 
@@ -568,6 +648,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7409",
+NA,
+#
 #
 "038",
 "1970", 
@@ -580,6 +662,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 7413",
+NA,
+#
 #
 "039",
 "1970", 
@@ -592,6 +676,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 30080",
+NA,
+#
 #
 "040",
 "1971", 
@@ -602,6 +688,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "MS 30537",
+NA,
+#
 #
 "041",
 "1971", 
@@ -620,9 +708,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 30825",
-
-
-
+NA,
+#
 #
 "042",
 "1972", 
@@ -636,6 +723,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 31073",
+NA,
+#
 #
 "043",
 "1972", 
@@ -649,6 +738,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 31311",
+NA,
+#
 #
 "044",
 "1972", 
@@ -664,6 +755,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 31312",
+NA,
+#
 #
 "045",
 "1972", 
@@ -679,6 +772,8 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "S 31333",
+NA,
+#
 #
 "046",
 "1972", 
@@ -693,8 +788,10 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 31512",
+NA,
 #
-"046",
+#
+"047",
 "1973", 
 "Glenn Gould's First Recordings of Grieg and Bizet",
 "Grieg: Piano Sonata; 
@@ -704,8 +801,10 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 32040",
+NA,
 #
-"047",
+#
+"048",
 "1973", 
 "Bach: The French Suites, Vol. 1",
 "Suite No. 1 in D minor, BWV 812; 
@@ -717,8 +816,10 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 32347",
+NA,
 #
-"048",
+#
+"049",
 "1973",
 "The Mozart Piano Sonatas, Vol. 4",
 "Piano Sonata No. 11; 
@@ -730,8 +831,10 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 32348",
+NA,
 #
-"049",
+#
+"050",
 "1973",
 "Beethoven: Piano Sonatas, Op. 31 Complete",
 "Piano Sonata No. 16; 
@@ -742,8 +845,10 @@ NA,
 NA,
 "Columbia Masterworks", 
 NA, "M 32349",
+NA,
 #
-"050",
+#
+"051",
 "1973",
 "Glenn Gould Plays Hindemith's Piano Sonatas 1-3",
 "Piano Sonata No. 1; 
@@ -754,8 +859,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 32350",
+NA,
 #
-"051",
+#
+"052",
 "1973",
 "Glenn Gould Plays His Own Transcriptions of Wagner Orchestral Showpieces",
 "Prelude to Act I (from Die Meistersinger); 
@@ -766,8 +873,10 @@ NA,
 "Eaton Auditorium, Toronto", 
 "CBS Masterworks", 
 NA, "M 32351",
+NA,
 #
-"052",
+#
+"053",
 "1974",
 "Bach: The French Suites, Vol. 2 & Overture in the French Style",
 "French Suite No. 5 in G major, BWV 816; 
@@ -778,8 +887,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 32853",
+NA,
 #
-"053",
+#
+"054",
 "1974", 
 "Bach: The Three Sonatas for Viola da Gamba & Harpsichord",
 "Sonata No. 1 in G major, BWV 1027; 
@@ -790,8 +901,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 32934",
+NA,
 #
-"054",
+#
+"055",
 "1975", 
 "Beethoven: Bagatelles, Op. 33 & Op. 126",
 "Bagatelles, Op. 33; 
@@ -801,8 +914,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 33265",
+NA,
 #
-"055",
+#
+"056",
 "1975", "The Mozart Piano Sonatas, Vol. 5",
 "Fantasia in C Minor, K. 475;
   Piano Sonata No. 14 in C minor, K. 457;
@@ -813,8 +928,10 @@ NA,
 "Columbia 30th Street Studio, New York", 
 "Columbia Masterworks", 
 NA, "M 33515",
+NA,
 #
-"056",
+#
+"057",
 "1976",
 "Hindemith: The Complete Sonatas For Brass & Piano",
 "Sonata in F for French Horn and Piano;
@@ -827,8 +944,10 @@ NA,
 NA,
 "CBS Masterworks",
 NA, "M2 33971",
+NA,
 #
-"057",
+#
+"058",
 "1976",
 "Bach: The Six Sonatas for Violin and Harpsichord",
 "Sonata in B minor for violin and harpsichord, BWV 1014;
@@ -842,8 +961,10 @@ NA,
 NA,
 "CBS Masterworks",
 NA, "M2 34226",
+NA,
 #
-"058",
+#
+"059",
 "1977",
 "Glenn Gould Plays Sibelius",
 "Sonatine No. 1 for Piano in E major, Op. 67;
@@ -855,8 +976,10 @@ NA,
 NA,
 "CBS Masterworks",
 NA, "M 34555",
+NA,
 #
-"059",
+#
+"060",
 "1977",
 "Glenn Gould Plays Bach: The English Suites Complete",
 "Suite No. 1 in A Major, BWV 806;
@@ -874,8 +997,10 @@ NA,
 "Eaton's Auditorium",
 "CBS Masterworks",
 NA, "M2 34578",
+NA,
 #
-"060",
+#
+"061",
 "1978",
 "Hindemith: Das Marienleben for Soprano & Piano",
 "Das Marienleben",
@@ -884,8 +1009,10 @@ NA,
 NA,
 "CBS Masterworks",
 NA, "M2 34597",
+NA,
 #
-"061",
+#
+"062",
 "1979", 
 "Bach: The Toccatas, Vol. 1",
 "Toccata in F-sharp minor, BWV 910;
@@ -896,8 +1023,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 35144",
+NA,
 #
-"062",
+#
+"063",
 "1980",
 "Bach: The Toccatas, Vol. 2",
 "Toccata in C minor, BWV 911;
@@ -909,8 +1038,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 35831",
+NA,
 #
-"063",
+#
+"064",
 "1980",
 "Bach: Prelude, Fughettas & Fugues",
 "Prelude And Fugue in A minor, BWV 895;
@@ -938,8 +1069,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 35891",
+NA,
 #
-"064",
+#
+"065",
 "1980",
 "Beethoven: Piano Sonatas, Op. 2, Nos. 1-3, Op. 28, \"Pastoral\"",
 "Piano Sonata No. 1;
@@ -951,8 +1084,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M2 35911",
+NA,
 #
-"065",
+#
+"066",
 "1981",
 "The Glenn Gould Silver Jubilee Album",
 "Scarlatti: Sonatas, L 463, 413, and 486;
@@ -967,8 +1102,10 @@ NA,
 NA,
 "CBS Masterworks",
 NA, "M2X 35914",
+NA,
 #
-"066",
+#
+"067",
 "1982",
 "Haydn: The Six Last Sonatas",
 "Piano Sonata No. 56, Hob. XVI/No. 42;
@@ -979,8 +1116,10 @@ NA, "M2X 35914",
   Piano Sonata No. 62, Hob. XVI/No. 52",
 "CBS Masterworks", 
 NA, "I2M 36947",
+NA,
 #
-"067",
+#
+"068",
 "1982", 
 "Bach: The Goldberg Variations (1981 Digital Recording)",
 "Goldberg Variations",
@@ -989,8 +1128,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "IM 37779",
+NA,
 #
-"068",
+#
+"069",
 "1982", 
 "Glenn Gould Discusses His Performances of the \"Goldberg Variations\" with Tim Page", 
 NA,
@@ -999,8 +1140,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "CDN-70 (Bonus disc released with IM 37779)",
+NA,
 #
-"069",
+#
+"070",
 "1982",
 "A State of Wonder: The Complete Goldberg Variations, 1955 & 1981",
 "* 3 discs: 1955 and 1981 recordings plus 1955 outtakes and Gould's final radio interview",
@@ -1009,8 +1152,10 @@ NA,
 NA,
 "Sony Classical", 
 NA, "S3K 87703",
+NA,
 #
-"070",
+#
+"071",
 "1983",
 "Brahms: Ballades, Op. 10 & Rhapsodies, Op. 79",
 "Ballades, Op. 10;
@@ -1021,8 +1166,10 @@ NA,
 "RCA's Studio A in New York",
 "CBS Masterworks", 
 NA, "IM 37800",
+NA,
 #
-"071",
+#
+"072",
 "1983",
 "Beethoven: Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
 "Piano Sonata No. 12;
@@ -1032,8 +1179,10 @@ NA,
 NA,
 "CBS Masterworks", 
 NA, "M 37831",
+NA,
 #
-"072",
+#
+"074",
 "1984",
 "Richard Strauss: Sonata, Op. 5; 5 Piano Pieces, Op. 3",
 "Five Piano Pieces, Op. 3;
@@ -1047,8 +1196,10 @@ NA,
   Eaton\'s Auditorium in Toronto (Piano Piece 5)",
 "CBS Masterworks", 
 NA, "IM 38659",
+NA,
 #
-"073",
+#
+"075",
 "1990",
 "Glenn Gould Conducts & Plays Wagner",
 "Siegfried Idyll * (original version for 13 instruments): Glenn Gould, conductor;
@@ -1074,14 +1225,10 @@ NA, "SK 46279",
 
 x <- seq_along(discog_table)
 
-d1 <- split(discog_table, ceiling(x/10))
+d1 <- split(discog_table, ceiling(x/11))
 
 d1
 
 ```
-
-
-```{r}
-
 
 
