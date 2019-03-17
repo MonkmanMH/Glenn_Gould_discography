@@ -15,8 +15,8 @@ library(tidyr)
 
 ```{r}
 
-headings <- c("INDEX_NUM",
-              "INDEX_CCAC",
+headings <- c("INDEX_CCAC",
+              "INDEX_WIK",
               "year.of.issue",
               "date.of.issue",
               "title", 
@@ -54,8 +54,8 @@ datapasta'd from https://en.wikipedia.org/wiki/Glenn_Gould_discography
 discog_table <- 
   c(
 #  
+"album001",
 "001",
-"01",
 "1956",
 "1956-01-03",
 "Bach: The Goldberg Variations",
@@ -70,7 +70,7 @@ NA,
 #
 #
 "002", 
-"02", 
+"album002", 
 "1956", 
 "1956-09-17",
 "Beethoven: Piano Sonatas Nos. 30-32",
@@ -85,7 +85,7 @@ NA,
 #
 #
 "003",
-"03",
+"album003",
 "1957", 
 "1957-10-14",
 "Bach: Concerto No. 1 in D minor, BWV 1052 & Beethoven: Concerto No. 2 in B-flat major, Op. 19",
@@ -101,7 +101,7 @@ NA,
 #
 #
 "004",
-"04",
+"album004",
 "1957", 
 "1957-12-30",
 "Bach: Partitas Nos. 5 & 6; Fugues in F-sharp minor and E major",
@@ -118,8 +118,8 @@ NA,
 17,
 #
 #
-"005",  
-"05",  
+"005",
+"album005",  
 "1958",
 "1958-07-14",
 "Haydn: Sonata No. 3 in E-flat major; Mozart: Sonata No. 10 in C major, K.330; Fantasia and Fugue in C major, K.394",
@@ -136,7 +136,7 @@ NA,
 #
 #
 "006",
-"06",
+"album006",
 "1958", 
 "1958-10-06",
 "Beethoven: Concerto No. 1 in C major; Bach: Concerto No. 5 in F minor",
@@ -152,7 +152,7 @@ NA,
 #
 #
 "007",
-"07",
+"album007",
 "1959", 
 "1959-01-19",
 "Berg: Sonata for Piano, Op. 1; Schoenberg: Three Piano Pieces, Op. 11; Krenek: Sonata No. 3 for Piano, Op. 92, No. 4",
@@ -169,7 +169,7 @@ NA,
 #
 #
 "009",
-"08",
+"album008",
 "1960",
 "1960-01-04",
 "Beethoven: Piano Concerto No. 3 in C minor, Op. 37",
@@ -184,7 +184,7 @@ NA,
 #
 #
 "010",
-"09",
+"album009",
 "1960", 
 "1960-01-04",
 "Bach: Italian Concerto in F major & Partita Nos. 1 & 2",
@@ -201,7 +201,7 @@ NA,
 #
 #
 "008",
-"10",
+"album010",
 "1960", 
 "1960-10-03",
 "Gould: String Quartet No. 1",
@@ -216,7 +216,7 @@ NA,
 #
 #
 "011",
-"11",
+"album011",
 "1961", 
 "1961-04-17",
 "Brahms: 10 Intermezzi",
@@ -240,7 +240,7 @@ NA,
 #
 #
 "012",
-"12",
+"album012",
 "1961", 
 "1961-07-31",
 "Beethoven: Piano Concerto No. 4 in G major, Op. 58",
@@ -255,7 +255,7 @@ NA,
 #
 #
 "014",
-"13",
+"album013",
 "1962", 
 "1962-05-14",
 "Bach: The Art of the Fugue, Volume I",
@@ -270,7 +270,7 @@ NA,
 #
 #
 "013",
-"14",
+"album014",
 "1962", 
 "1962-05-14",
 "Mozart: Piano Concerto No. 24 in C minor, K. 491 & Schoenberg: Piano Concerto, Op. 42",
@@ -287,7 +287,7 @@ NA,
 #
 #
 "015",
-"15",
+"album015",
 "1962",
 "1962-05-14",
 "Strauss: Enoch Arden (Tennyson), Op. 38",
@@ -302,7 +302,7 @@ NA,
 #
 #
 "016",
-"16",
+"album016",
 "1963", 
 "1963-01-14",
 "Bach: The Well-Tempered Clavier, Book I Volume I, BWV 846-853",
@@ -317,7 +317,7 @@ NA,
 #
 #
 "017",
-"17",
+"album017",
 "1963", 
 "1963-09-16",
 "Bach: Partitas 3 & 4, Toccata 7",
@@ -334,7 +334,7 @@ NA,
 #
 #
 "018",
-"18",
+"album018",
 "1963", 
 "1964-01-13",
 "Bach: The Well-Tempered Clavier, Book I Volume 2, BWV 854-861",
@@ -349,7 +349,7 @@ NA,
 #
 #
 "019",
-"19",
+"album019",
 "1964", 
 "1964-08-10",
 "Bach: Two and Three Part Inventions, BWV 772-801 (Inventions & Sinfonias)",
@@ -364,7 +364,7 @@ NA,
 #
 #
 "020",
-"20",
+"album020",
 "1965", 
 "1965-01-25",
 "Beethoven: Sonatas No. 5-7, Op. 10, No. 1-3",
@@ -381,7 +381,7 @@ NA,
 #
 #
 "021",
-"21",
+"album021",
 "1965",
 "1965-10-18",
 "Bach: The Well-Tempered Clavier, Book I Volume 3, BWV 862-869",
@@ -396,7 +396,7 @@ NA,
 #
 #
 "022",
-"22-23",
+"album022-23",
 "1966", 
 "1966-04-18",
 "The Music of Arnold Schoenberg, Vol. IV",
@@ -417,7 +417,7 @@ NA,
 #
 #
 "023",
-"24",
+"album024",
 "1966", 
 "1966-05-16",
 "Beethoven: Piano Concerto No. 5 in E-flat major, Op. 73, \"Emperor\"",
@@ -432,7 +432,7 @@ NA,
 #
 #
 "027",
-"25-26",
+"album025-26",
 "1967", 
 "1967-12-26",
 "The Music of Arnold Schoenberg, Vol. VII",
@@ -451,7 +451,7 @@ NA,
 #
 #
 "024",
-"27",
+"album027",
 "1967", 
 "1967-01-16",
 "Beethoven: Sonatas for Piano No. 8-10, Op. 13 \"Path?tique\", Op. 14, No. 1 & 2",
@@ -468,7 +468,7 @@ NA,
 #
 #
 "025",
-"28",
+"album028",
 "1967",
 "1967-07-17",
 "Bach: Three Keyboard Concertos, BWV 1054, 1056 & 1058",
@@ -485,7 +485,7 @@ NA,
 #
 #
 "026",
-"29",
+"album029",
 "1967", 
 "1967-11-01",
 "Canadian Music in the XXth Century",
@@ -502,7 +502,7 @@ NA,
 #
 #
 "030",
-"30",
+"album030",
 "1968",
 "1968-03-18",
 "The Mozart Piano Sonatas, Vol. 1",
@@ -521,7 +521,7 @@ NA,
 #
 #
 "031",
-"31",
+"album031",
 "1968", 
 "1968-03-18",
 "Bach: The Well-Tempered Clavier, Book II Volume I, BWV 870-877",
@@ -536,7 +536,7 @@ NA,
 #
 #
 "029",
-"32",
+"album032",
 "1968", 
 "1968-03-18",
 "Bach: The Goldberg Variations", 
@@ -551,7 +551,7 @@ NA,
 #
 #
 "028",
-"33",
+"album033",
 "1968",
 "1968-04-03",
 "Beethoven: Symphony No. 5 in C minor, Op. 67 (Transcribed for Piano by Franz Liszt)",
@@ -566,7 +566,7 @@ NA,
 #
 #
 "032",
-NA,
+"album901",
 "1968", 
 NA,
 "Glenn Gould: Concert Dropouts - In Conversation with John McClure",
@@ -587,7 +587,7 @@ NA,
 #
 #
 "033",
-"34",
+"album034",
 "1969",
 "1969-01-19",
 "Scriabin: Sonata No. 3 in F-sharp minor, Op. 23 & Prokofiev: Sonata No. 7 in B-flat major, Op. 83",
@@ -603,7 +603,7 @@ NA,
 #
 #
 "034",
-"35",
+"album035",
 "1969",
 "1969-05-19",
 "The Mozart Piano Sonatas, Vol. 2",
@@ -620,7 +620,7 @@ NA,
 #
 #
 "035",
-"36",
+"album036",
 "1969",
 "1969-07-30",
 "Bach: Keyboard Concertos, Vol. II",
@@ -636,7 +636,7 @@ NA,
 #
 #
 "036",
-"37",
+"album037",
 "1969",
 "1969-11-10",
 "Schumann: Piano Quintet in E Flat; Piano Quartet in E Flat; The Three String Quartets",
@@ -655,7 +655,7 @@ NA, "D3S 806",
 #
 #
 "038",
-"38",
+"album038",
 "1970",
 "1970-02-24",
 "Glenn Gould Plays Beethoven Sonatas Nos. 8, 14 & 23",
@@ -672,7 +672,7 @@ NA,
 #
 #
 "037",
-"39",
+"album039",
 "1970",
 "1970-03-30",
 "Bach: The Well-Tempered Clavier, Book II Volume II, BWV 878-885",
@@ -687,7 +687,7 @@ NA,
 #
 #
 "039",
-"40",
+"album040",
 "1970",
 "1970-09-28",
 "Beethoven: Variations for Piano",
@@ -704,7 +704,7 @@ NA,
 #
 #
 "040",
-"41",
+"album041",
 "1971",
 "1971-04-26",
 "Bach: The Well-Tempered Clavier, Book II Volume III, BWV 886-893",
@@ -719,7 +719,7 @@ NA,
 #
 #
 "041",
-"42",
+"album042",
 "1971", 
 "1971-09-29",
 "A Consort of Musicke bye William Byrde and Orlando Gibbons",
@@ -742,7 +742,7 @@ NA,
 #
 #
 "042",
-"43",
+"album043",
 "1972",
 "1972-01-19",
 "The Mozart Piano Sonatas, Vol. 3",
@@ -760,7 +760,7 @@ NA,
 #
 #
 "045",
-"44",
+"album044",
 "1972",
 "1972-04-12",
 "Music from Kurt Vonnegut's Slaughterhouse-Five",
@@ -780,7 +780,7 @@ NA,
 #
 #
 "043",
-NA,
+"album902",
 "1972",
 NA,
 "Schoenberg: Complete Songs for Voice and Piano, Vol. 1",
@@ -797,7 +797,7 @@ NA,
 #
 #
 "044",
-"45",
+"album045",
 "1972", 
 "1972-05-24",
 "Schoenberg: Complete Songs for Voice and Piano, Vol. 2",
@@ -817,7 +817,7 @@ NA,
 #
 #
 "045",
-"46",
+"album046",
 "1972",
 "1972-08-30",
 "Händel: Suites for the Harpsichord",
@@ -835,7 +835,7 @@ NA, "M 32040",
 #
 #
 "047",
-"47",
+"album047",
 "1973",
 "1973-03-02",
 "Glenn Gould's First Recordings of Grieg and Bizet",
@@ -851,7 +851,7 @@ NA,
 #
 #
 "048",
-"48",
+"album048",
 "1973",
 "1973-11-05",
 "Bach: The French Suites, Vol. 1",
@@ -869,7 +869,7 @@ NA,
 #
 #
 "049",
-"49",
+"album049",
 "1973",
 "1973-09-28",
 "The Mozart Piano Sonatas, Vol. 4",
@@ -887,7 +887,7 @@ NA,
 #
 #
 "051",
-"50",
+"album050",
 "1973",
 "1973-09-03",
 "Glenn Gould Plays Hindemith's Piano Sonatas 1-3",
@@ -904,7 +904,7 @@ NA,
 #
 #
 "052",
-"51",
+"album051",
 "1973",
 "1973-09-28",
 "Glenn Gould Plays His Own Transcriptions of Wagner Orchestral Showpieces",
@@ -921,7 +921,7 @@ NA,
 #
 #
 "050",
-"52",
+"album052",
 "1973",
 "1973-09-28",
 "Beethoven: Piano Sonatas, Op. 31 Complete",
@@ -938,7 +938,7 @@ NA,
 #
 #
 "053",
-"53",
+"album053",
 "1974",
 "1974-05-04",
 "Bach: The French Suites, Vol. 2 & Overture in the French Style",
@@ -955,7 +955,7 @@ NA,
 #
 #
 "054",
-"54",
+"album054",
 "1974", 
 "1974-08-16",
 "Bach: The Three Sonatas for Viola da Gamba & Harpsichord",
@@ -972,7 +972,7 @@ NA,
 #
 #
 "055",
-"55",
+"album055",
 "1975",
 "1975-04-01",
 "Beethoven: Bagatelles, Op. 33 & Op. 126",
@@ -988,7 +988,7 @@ NA,
 #
 #
 "056",
-"56",
+"album056",
 "1975", 
 "1975-08-01",
 "The Mozart Piano Sonatas, Vol. 5",
@@ -1006,7 +1006,7 @@ NA,
 #
 #
 "057",
-"57-58",
+"album057-58",
 "1976",
 "1976-05-01",
 "Hindemith: The Complete Sonatas For Brass & Piano",
@@ -1025,7 +1025,7 @@ NA,
 #
 #
 "058",
-"59-60",
+"album059-60",
 "1976",
 "1976-11-02",
 "Bach: The Six Sonatas for Violin and Harpsichord",
@@ -1045,7 +1045,7 @@ NA,
 #
 #
 "060",
-"61-62",
+"album061-62",
 "1977",
 "1977-04-03",
 "Glenn Gould Plays Bach: The English Suites Complete",
@@ -1069,7 +1069,7 @@ NA,
 #
 #
 "059",
-"63",
+"album063",
 "1977",
 "1977-11-04",
 "Glenn Gould Plays Sibelius",
@@ -1087,7 +1087,7 @@ NA,
 #
 #
 "061",
-"64-65",
+"album064-65",
 "1978",
 "1978-07-04",
 "Hindemith: Das Marienleben for Soprano & Piano",
@@ -1102,7 +1102,7 @@ NA,
 #
 #
 "062",
-"66",
+"album066",
 "1979",
 "1979-02-04",
 "Bach: The Toccatas, Vol. 1",
@@ -1119,7 +1119,7 @@ NA,
 #
 #
 "063",
-"67",
+"album067",
 "1980",
 "1980-02-03",
 "Bach: The Toccatas, Vol. 2",
@@ -1137,7 +1137,7 @@ NA,
 #
 #
 "064",
-"68",
+"album068",
 "1980",
 "1980-09-01",
 "Bach: Prelude, Fughettas & Fugues",
@@ -1171,7 +1171,7 @@ NA,
 #
 #
 "065",
-"69-70",
+"album069-70",
 "1980",
 "1980-10-05",
 "Beethoven: Piano Sonatas, Op. 2, Nos. 1-3, Op. 28, \"Pastoral\"",
@@ -1189,7 +1189,7 @@ NA,
 #
 #
 "066",
-"71-72",
+"album071-72",
 "1981",
 "1980-11-03",
 "The Glenn Gould Silver Jubilee Album",
@@ -1210,7 +1210,7 @@ NA,
 #
 #
 "067",
-"73-74",
+"album073-74",
 "1982",
 "1982-02-04",
 "Haydn: The Six Last Sonatas",
@@ -1230,7 +1230,7 @@ NA,
 #
 #
 "068",
-"75",
+"album075",
 "1982", 
 "1982-09-02",
 "Bach: The Goldberg Variations (1981 Digital Recording)",
@@ -1245,7 +1245,7 @@ NA,
 #
 #
 "069",
-NA,
+"album903",
 "1982", 
 NA,
 "Glenn Gould Discusses His Performances of the \"Goldberg Variations\" with Tim Page", 
@@ -1260,8 +1260,8 @@ NA,
 #
 #
 "070",
-NA,
-"1982",
+"album904",
+"2002",
 NA,
 "A State of Wonder: The Complete Goldberg Variations, 1955 & 1981",
 "* 3 discs: 1955 and 1981 recordings plus 1955 outtakes and Gould's final radio interview",
@@ -1275,7 +1275,7 @@ NA,
 #
 #
 "071",
-"76",
+"album076",
 "1983",
 "1983-03-01",
 "Brahms: Ballades, Op. 10 & Rhapsodies, Op. 79",
@@ -1292,7 +1292,7 @@ NA,
 #
 #
 "072",
-"77",
+"album077",
 "1983",
 "1983-08-02",
 "Beethoven: Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
@@ -1308,7 +1308,7 @@ NA,
 #
 #
 "073",
-"78",
+"album078",
 "1984",
 "1984-02-04",
 "Richard Strauss: Sonata, Op. 5; 5 Piano Pieces, Op. 3",
@@ -1328,7 +1328,7 @@ NA,
 #
 #
 "074",
-NA,
+"album905",
 "1990",
 NA,
 "Glenn Gould Conducts & Plays Wagner",

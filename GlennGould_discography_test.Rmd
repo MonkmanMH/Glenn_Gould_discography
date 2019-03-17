@@ -15,8 +15,8 @@ library(tidyr)
 
 ```{r}
 
-headings <- c("INDEX_NUM",
-              "INDEX_CCAC",
+headings <- c("INDEX_CCAC",
+              "INDEX_WIK",
               "year.of.issue", 
               "title", 
               "works",
@@ -45,11 +45,11 @@ datapasta'd from https://en.wikipedia.org/wiki/Glenn_Gould_discography
 test run, one release
 ```{r}
 
-discog_table <- 
+Gould_discog_list <- 
   c(
 #  
+  "album01",
   "001",
-  "01",
   "1956", 
   "Bach: The Goldberg Variations",
   "Goldberg Variations",
@@ -61,9 +61,9 @@ discog_table <-
 
 #
 
-cbind.data.frame(headings, discog_table)
+cbind.data.frame(headings, Gould_discog_list)
 
-rbind.data.frame(headings, discog_table)
+rbind.data.frame(headings, Gould_discog_list)
 
 ```
 
@@ -71,11 +71,11 @@ rbind.data.frame(headings, discog_table)
 test run, three releases
 ```{r}
 
-discog_table <- 
+Gould_discog_list <- 
   c(
 #  
+  "album01",
   "001",
-  "01",
   "1956", 
   "Bach: The Goldberg Variations",
   "Goldberg Variations",
@@ -85,8 +85,8 @@ discog_table <-
   "ML 5060", NA,
   NA,
 #
+  "album02",
   "002",
-  "02",
   "1956", 
   "Beethoven: Piano Sonatas Nos. 30-32",
   "Piano Sonata No. 30, Piano Sonata No. 31, Piano Sonata No. 32",
@@ -96,8 +96,8 @@ discog_table <-
   "ML 5130", NA,
   NA,
 #  
+  "album03",
   "003",
-  "03",
   "1957", 
   "Bach: Concerto No. 1 in D minor, BWV 1052 & Beethoven: Concerto No. 2 in B-flat major, Op. 19",
   "Bach: Concerto No. 1 in D minor, BWV 1052, Beethoven: Piano Concerto No. 2",
@@ -108,7 +108,7 @@ discog_table <-
   NA
 )
 
-cbind.data.frame(headings, discog_table)
+cbind.data.frame(headings, Gould_discog_list)
 
 
 
@@ -120,16 +120,16 @@ https://stackoverflow.com/questions/42790219/how-do-i-transpose-a-tibble-in-r
 
 ```{r}
 
-tibble(discog_table)
+tibble(Gould_discog_list)
 
 
-discog <- cbind.data.frame(headings, discog_table)
+discog <- cbind.data.frame(headings, Gould_discog_list)
 
 discog
 
 discog %>%
   mutate(headings = as.character(headings),
-         discog_table = as.character(discog_table))
+         Gould_discog_list = as.character(Gould_discog_list))
 
 ```
 
@@ -140,9 +140,9 @@ discog %>%
 
 # https://stackoverflow.com/questions/3318333/split-a-vector-into-chunks-in-r/27861896
 
-x <- seq_along(discog_table)
+x <- seq_along(Gould_discog_list)
 
-d1 <- split(discog_table, ceiling(x/12))
+d1 <- split(Gould_discog_list, ceiling(x/12))
 
 d1
 
@@ -154,14 +154,29 @@ d1
 
 ```{r}
 
-tibble(d1)
+tibble(line = 1:3, d1)
 
 ```
 
 ```{r}
 
-purrr::pmap_dfr(d1, rbind(d1))
+#purrr::pmap_dfr(d1, rbind(d1))
+# - produces the following error, which might be worth investigating further:
+# - Error in pluck(x, c("001", "01", "1956", "Bach: The Goldberg Variations", : argument "x" is missing, with no default
+
 
 ```
 
+What about Tidy Text?
+
+https://www.tidytextmining.com/tidytext.html
+
+
+```{r}
+
+library(tidytext)
+
+janeaustenr::austen_books()
+
+```
 
