@@ -7,6 +7,7 @@ output: html_notebook
 library(datapasta)
 
 library(dplyr)
+library(purrr)
 library(tibble)
 library(tidyr)
 
@@ -155,13 +156,9 @@ https://stackoverflow.com/questions/42790219/how-do-i-transpose-a-tibble-in-r
 tibble(Gould_discog_list)
 
 
-discog <- cbind.data.frame(headings, Gould_discog_list)
+discog <- cbind.data.frame(headings, Gould_discog_list, stringsAsFactors = FALSE)
 
 discog
-
-discog %>%
-  mutate(headings = as.character(headings),
-         Gould_discog_list = as.character(Gould_discog_list))
 
 ```
 
@@ -212,16 +209,48 @@ tibble(line = 1:3, d1)
 
 ```
 
+
+```{r}
+
+d1 %>%
+  pluck(1)
+
+pluck(d1, 1)
+
+d1 %>%
+  pluck(1) %>%
+  pluck(1)
+
+d1 %>%
+  pluck(1, 1)
+
+```
+
+
+now we're cooking!!!
+
+`map(1)` does same as `pluck(1, 1)` but for every element
+
+
+```{r}
+
+d1 %>%
+  map(1)
+
+album_num <- d1 %>%
+  map_dfr(1)
+
+album_num
+
+
+```
+
+
+
+
 What about Tidy Text?
 
 https://www.tidytextmining.com/tidytext.html
 
 
-```{r}
-
-library(tidytext)
-
-janeaustenr::austen_books()
-
-```
 
