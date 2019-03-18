@@ -85,7 +85,7 @@ NA,
 "Bach: Concerto No. 1 in D minor, BWV 1052 & Beethoven: Concerto No. 2 in B-flat major, Op. 19",
 "Bach: Concerto No. 1 in D minor, BWV 1052; 
   Beethoven: Piano Concerto No. 2",
-"Leonard Bernstein / Columbia Symphony Orchestra)",
+"Leonard Bernstein / Columbia Symphony Orchestra",
 "April 9 - April 11, 1957 and April 30, 1957", 
 "CBS 30th Street Studio", 
 "Columbia Masterworks", 
@@ -575,8 +575,8 @@ Electronic Music Is The Future",
 NA,
 NA,
 "Columbia Masterworks",
-NA, "BS 15 (bonus disc released with MS 7095)",
-NA,
+NA, "BS 15",
+"bonus disc released with MS 7095",
 NA,
 #
 #
@@ -1349,6 +1349,34 @@ NA
 # https://stackoverflow.com/questions/3318333/split-a-vector-into-chunks-in-r/27861896
 x <- seq_along(Gould_discog_list)
 d1 <- split(Gould_discog_list, ceiling(x / length(headings)))
-d1
 
+d2 <- purrr::transpose(d1)
+
+d2_df <- purrr::map_dfr(d2, magrittr::extract, 1:74)
+
+d2_df_t <- t(d2_df)
+
+d2_df_t <- as.data.frame(d2_df_t)
+
+
+Gould_discog_table <- 
+  d2_df_t %>%
+  rename(INDEX_CCAC = V1,
+         INDEX_WIK = V2,
+         year.of.issue = V3,
+         date.of.issue = V4,
+         title = V5, 
+         works = V6,
+         other.artists = V7,
+         recording.date = V8, 
+         recording.location = V9,
+         label = V10,
+         serial.number.mono = V11, 
+         serial.number.stereo = V12,
+         notes = V13,
+         CCAC_page = V14)
+
+Gould_discog_table
+
+write.csv(Gould_discog_table, "Gould_discog_table.csv")
 
