@@ -1351,14 +1351,12 @@ x <- seq_along(Gould_discog_list)
 d1 <- split(Gould_discog_list, ceiling(x / length(headings)))
 
 d2 <- purrr::transpose(d1)
-
 d2_df <- purrr::map_dfr(d2, magrittr::extract, 1:74)
 
 d2_df_t <- t(d2_df)
-
 d2_df_t <- as.data.frame(d2_df_t)
 
-
+# there's probably a more elegant way to do this, but hey, it works...
 Gould_discog_table <- 
   d2_df_t %>%
   rename(INDEX_CCAC = V1,
@@ -1376,7 +1374,7 @@ Gould_discog_table <-
          notes = V13,
          CCAC_page = V14)
 
-Gould_discog_table
+head(Gould_discog_table)
 
-write.csv(Gould_discog_table, "Gould_discog_table.csv")
+readr::write_csv(Gould_discog_table, "Gould_discog_table.csv")
 
